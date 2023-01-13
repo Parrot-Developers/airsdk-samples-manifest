@@ -13,7 +13,7 @@
     <project name="dragon_buildext_sign" path="build/dragon_buildext_sign"/>
 
     <!-- AirSDK samples -->
-    <project name="airsdk-samples" path="packages/airsdk-samples">
+    <project name="airsdk-samples" path="packages/airsdk-samples" revision="the-hard-way" upstream="the-hard-way">
         <linkfile src="hello/product" dest="products/hello"/>
         <linkfile src="README.md" dest="README"/>
     </project>
